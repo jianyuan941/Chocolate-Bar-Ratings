@@ -9,6 +9,9 @@
 # User-specific files
 .Ruserdata
 
+# Ignore File
+R file/
+
 # Example code in package build process
 *-Ex.R
 
@@ -38,9 +41,6 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-
-# pkgdown site
-docs/
 
 # translation temp files
 po/*~
