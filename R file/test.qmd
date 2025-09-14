@@ -1,0 +1,41 @@
+---
+title: "test"
+format: html
+---
+
+```{r}
+source("01-function.R")
+```
+
+```{R}
+
+group <- unique(Breast_cancer_dataset$diagnosis)
+
+f1 <-
+hist_bell_plotly(
+  database = Breast_cancer_dataset,
+  x_col = radius_mean,
+  matched_group_col = diagnosis,
+  ordered_group = group,
+  bin_size = 1
+)
+f1
+f2 <-
+hist_bell_plotly(
+  database = Breast_cancer_dataset,
+  x_col = perimeter_mean,
+  matched_group_col = diagnosis,
+  ordered_group = group,
+  bin_size = 1
+)
+f2
+subplot_function(f1, f2) %>% 
+  bell_curve_selection_generator(number_of_curve = 8)
+
+mu <- mean_result
+sigma <- std_result
+      df<- seq(mu - 4*sigma, mu +4*sigma, length.out = sample_size)
+df
+      df1<- dnorm(df, mean = mu, sd = sigma)
+      df1
+```

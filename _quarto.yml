@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Chocolate Bar  Ratings"
+  author: "JY Choo"
+  date: "08/28/2025"
+  chapters:
+    - index.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    #code-fold: true
+    #code-summary: "show the code"
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
