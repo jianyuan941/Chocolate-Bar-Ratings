@@ -27,7 +27,7 @@ source("R file\\01-function.R")
 df <- data.frame(
   Name = c("Kaggle", "Github"),
   Link = c('<a href ="https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings/data" target ="_blank">Click</a>',
-           '<a href ="https://jianyuan941.github.io/Chocolate-Bar-Ratings" target= "_blank">Click</a>')
+           '<a href ="https://github.com/jianyuan941/Chocolate-Bar-Ratings" target= "_blank">Click</a>')
 )  
   kable(df, escape = F)
 ```

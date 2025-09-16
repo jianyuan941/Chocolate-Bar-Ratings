@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Chocolate Bar Ratings",
     "section": "",
-    "text": "1 Introduction\nThis project aims to perform exploratory data analysis (EDA) on the Chocolate Rating Dataset and bring insight to answer questions as per below:\nSource data can be accessible via clickable link below.\n#clickable link \ndf &lt;- data.frame(\n  Name = c(\"Kaggle\", \"Github\"),\n  Link = c('&lt;a href =\"https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings/data\" target =\"_blank\"&gt;Click&lt;/a&gt;',\n           '&lt;a href =\"https://jianyuan941.github.io/Chocolate-Bar-Ratings\" target= \"_blank\"&gt;Click&lt;/a&gt;')\n)  \n  kable(df, escape = F)\n\n\n\n\n\n\n\n\nName\nLink\n\n\n\n\nKaggle\nClick\n\n\nGithub\nClick",
+    "text": "1 Introduction\nThis project aims to perform exploratory data analysis (EDA) on the Chocolate Rating Dataset and bring insight to answer questions as per below:\nSource data can be accessible via clickable link below.\n#clickable link \ndf &lt;- data.frame(\n  Name = c(\"Kaggle\", \"Github\"),\n  Link = c('&lt;a href =\"https://www.kaggle.com/datasets/rtatman/chocolate-bar-ratings/data\" target =\"_blank\"&gt;Click&lt;/a&gt;',\n           '&lt;a href =\"https://github.com/jianyuan941/Chocolate-Bar-Ratings\" target= \"_blank\"&gt;Click&lt;/a&gt;')\n)  \n  kable(df, escape = F)\n\n\n\n\n\n\n\n\nName\nLink\n\n\n\n\nKaggle\nClick\n\n\nGithub\nClick",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
